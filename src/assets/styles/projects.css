@@ -1,0 +1,126 @@
+.projetos {
+    background-color: var(--light-gray-70);
+    width: 100%;
+    padding: 5rem 0;
+    border-radius: inherit;
+}
+
+.projetos h2 {
+    display: flex;
+    color: var(--smoky-black);
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container-projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 32rem;
+    flex-wrap: wrap;
+}
+
+.projeto {
+    background-color: var(--smoky-black);
+    width: 31rem;
+    height: 55rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    margin: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: var(--metalic-blue);
+}
+
+.capa {
+    height: 18rem;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    border-top: solid 0.3rem var(--metalic-blue);
+    border-bottom: solid 0.3rem var(--metalic-blue);
+}
+
+.capa img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    filter: grayscale(1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.capa img:hover {
+    filter: grayscale(0);
+}
+
+.titulo-projeto {
+    color: var(--metalic-blue);
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.descrição {
+    font-size: 1.4rem;
+    height: 12rem;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.container-projetos button {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--metalic-blue);
+    color: var(--white-1);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    text-align: center;
+    transition: 0.8s;
+}
+
+.container-projetos button:hover {
+    color: var(--smoky-black);
+    background-color: var(--metalic-blue);
+    border: solid 0.3rem var(--metalic-blue);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#link3 {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--ff-poppins);
+    width: 50rem;
+    color: var(--smoky-black);
+    background-color: var(--light-gray-70);
+    border: solid 0.3rem var(--smoky-black);
+    border-radius: 1.5rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 1.3rem 2rem;
+    margin: 5rem auto 0;
+    transition: 0.8s;
+}
+
+#link3:hover {
+    color: var(--metalic-blue);
+    border: solid 0.3rem var(--smoky-black);
+    background-color: var(--smoky-black);
+    box-shadow: none;
+    transition: 0.8s;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+footer {
+  inset: 0.1rem;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.footer-main {
+  background-color: var(--smoky-black);
+  color: var(--papaya);
+  padding: 2rem;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 1rem 1rem 0 0;
+  text-align: center;
+  border-top: 0.1rem solid var(--light-gray-20);
+  border-left: 0.1rem solid var(--light-gray-20);
+  border-right: 0.1rem solid var(--light-gray-20);
+}
+
+.footer-main p {
+  position: static;
+  color: var(--papaya);
+  font: var(--text-h3);
+}
+
+.footer-main .redes a img{
+  display: flex;
+  flex-direction: row;
+}
