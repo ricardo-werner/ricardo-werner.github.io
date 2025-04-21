@@ -26,11 +26,16 @@ O projeto também serve como base para futuras evoluções, incluindo integraç�
 
 ### 🎥 Deploy
 
-  
+  https://ricardo-werner.github.io/
 
 #### Gif da Página do Portfólio 
 <p align="center">
   <img width="480" src="./src/assets/to_readme/" alt="gif animado da tela da página do portfólio"
+</p>
+
+#### Tela Dados Pessoais 
+<p align="center">
+  <img width="480" src="./src/assets/to_readme/tela-personal.PNG" alt="imagem da tela da página inicial do portfólio com dados pessoais"
 </p>
 
 #### Tela Inicial Portfólio 
