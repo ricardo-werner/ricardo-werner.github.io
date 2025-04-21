@@ -1,13 +1,18 @@
-# Dio-Bootcamp_Ri-Happy - Portfólio Front-End
+# Portfólio Pessoal – Desenvolvedor Front-End
 
-Este projeto é o último do Bootcamp Ri-Happy - Front-end do Zero, com o objetivo de aplicar e aperfeiçoar os conhecimentos adquiridos. Utilizamos a estrutura semântica do HTML, as possibilidades de estilização com CSS e a lógica de programação com Javascript. A proposta foi desenvolvida sob a orientação da instrutora da DIO, Elidiana Andrade. 
+Este projeto foi desenvolvido com o objetivo de aplicar e consolidar conhecimentos fundamentais em HTML5, CSS3 e JavaScript, construindo uma página de portfólio pessoal moderna, responsiva e funcional.
 
-## Página de registro das informações sobre o Portfólio Front-End
+## 🧾 Página de Apresentação Profissional
 
-### 📜 Sobre o Projeto
+### 📌 Sobre o Projeto
 
-  Um projeto desenvolvido para aplicar conceitos de HTML, CSS e JavaScript, destacando o design responsivo, manipulação do DOM e práticas modernas de desenvolvimento front-end.
+Este portfólio tem como foco apresentar minha trajetória profissional, tecnologias dominadas e principais projetos desenvolvidos até o momento. A página foi estruturada com HTML semântico, estilizada com CSS moderno e responsivo, e dinamizada com funcionalidades em JavaScript puro.
 
+O layout foi pensado para proporcionar uma navegação fluida e visualmente agradável, além de destacar meu compromisso com boas práticas de desenvolvimento Front-End.
+
+O projeto também serve como base para futuras evoluções, incluindo integração com testes automatizados e novos projetos em React.js e TypeScript.
+
+---
 
 ### 🔗 Links Úteis
 
@@ -21,7 +26,6 @@ Este projeto é o último do Bootcamp Ri-Happy - Front-end do Zero, com o objeti
 
 ### 🎥 Deploy
 
-  https://ricardo-werner.github.io/Dio-Bootcamp-Ri-Happy-Portifolio-Front-End/
   
 
 #### Gif da Página do Portfólio 
@@ -91,7 +95,7 @@ No desenvolvimento desta página, foram aplicados os seguintes conceitos:
 
 1. Clone o repositório:
    
-    git clone https://github.com/ricardo-werner/Dio-Bootcamp-Ri-Happy-Portifolio-Front-End.git
+    git clone https://github.com/ricardo-werner/ricardo-werner.github.io.git
 
 3. Abra o projeto no Visual Studio Code e ative o Go Live:
     
