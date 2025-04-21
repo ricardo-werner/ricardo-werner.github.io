@@ -26,61 +26,65 @@ O projeto também serve como base para futuras evoluções, incluindo integraç�
 
 ### 🎥 Deploy
 
-  https://ricardo-werner.github.io/
+https://ricardo-werner.github.io/
 
-#### Gif da Página do Portfólio 
+#### Gif da Página do Portfólio
+
 <p align="center">
-  <img width="480" src="./src/assets/to_readme/" alt="gif animado da tela da página do portfólio"
+  <img width="480" src="./src/assets/to_readme/portfolio.gif" alt="gif animado da tela da página do portfólio"
 </p>
 
-#### Tela Dados Pessoais 
+#### Tela Dados Pessoais
+
 <p align="center">
   <img width="480" src="./src/assets/to_readme/tela-personal.PNG" alt="imagem da tela da página inicial do portfólio com dados pessoais"
 </p>
 
-#### Tela Inicial Portfólio 
+#### Tela Inicial Portfólio
+
 <p align="center">
   <img width="480" src="./src/assets/to_readme/tela-inicial.PNG" alt="imagem da tela da página inicial do portfólio"
 </p>
 
 #### Tela Tecnologias Estudadas
+
 <p align="center">
   <img width="480" src="./src/assets/to_readme/tela-tech.PNG" alt="imagem da tela da página na parte de tecnologia"
 </p>
 
-#### Tela Projetos 
+#### Tela Projetos
+
 <p align="center">
   <img width="480" src="./src/assets/to_readme/tela-projeto.PNG" alt="imagem da tela da página na parte de projetos"
 </p>
 
 #### Tela do código do Código
+
 <p align="center">
   <img width="480" src="./src/assets/to_readme/tela_codigo.PNG" alt="imagem dos códigos utilizados na programação da página do portfólio">
 </p>
 
 ### 🧩 Desafio
 
-  O maior desafio foi equilibrar funcionalidade e estética, criando uma interface atrativa e responsiva, enquanto resolvia problemas de layout e compatibilidade entre navegadores.
-
+O maior desafio foi equilibrar funcionalidade e estética, criando uma interface atrativa e responsiva, enquanto resolvia problemas de layout e compatibilidade entre navegadores.
 
 ### 📝 Requisitos da Aplicação
 
-| Item  | Descrição                                                                       |
-|-------|---------------------------------------------------------------------------------|
-|  1    | A página deve ser desenvolvida em HTML, CSS e Javascript                        |
-|  2    | Base de design foi pesquisado na internet                                       |
-|  3    | Modelagem do layout, formatos, tipografias, cores e organização livre.          |
-
+| Item | Descrição                                                              |
+| ---- | ---------------------------------------------------------------------- |
+| 1    | A página deve ser desenvolvida em HTML, CSS e Javascript               |
+| 2    | Base de design foi pesquisado na internet                              |
+| 3    | Modelagem do layout, formatos, tipografias, cores e organização livre. |
 
 ### 🚀 Plano do Projeto
 
 No desenvolvimento desta página, foram aplicados os seguintes conceitos:
 
-| Item  | Descrição                                   |
-|-------|---------------------------------------------|
-|  1    | HTML                                        |
-|  2    | CSS                                         |
-|  3    | Javascript                                  |
+| Item | Descrição  |
+| ---- | ---------- |
+| 1    | HTML       |
+| 2    | CSS        |
+| 3    | Javascript |
 
 ### 🛠 Tecnologias Utilizadas
 
@@ -93,17 +97,16 @@ No desenvolvimento desta página, foram aplicados os seguintes conceitos:
 
 ### 💡 Reflexões
 
-  Este projeto foi uma ótima oportunidade para consolidar conhecimentos, aprimorar habilidades em UI/UX e entender melhor os detalhes que fazem a diferença na experiência do usuário.
-
+Este projeto foi uma ótima oportunidade para consolidar conhecimentos, aprimorar habilidades em UI/UX e entender melhor os detalhes que fazem a diferença na experiência do usuário.
 
 ### 📦 Como Executar o Projeto
 
 1. Clone o repositório:
-   
-    git clone https://github.com/ricardo-werner/ricardo-werner.github.io.git
 
-3. Abra o projeto no Visual Studio Code e ative o Go Live:
-    
+   git clone https://github.com/ricardo-werner/ricardo-werner.github.io.git
+
+2. Abra o projeto no Visual Studio Code e ative o Go Live:
+
    <p align="center">
      <img width="280" src="./src/assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
    </p>
@@ -112,13 +115,13 @@ No desenvolvimento desta página, foram aplicados os seguintes conceitos:
      <img width="280" src="./src/assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
    </p>
 
-4. Visualize o resultado na página web:
+3. Visualize o resultado na página web:
 
    <p align="center">
      <img width="480" src="./src/assets/to_readme/telaWeb.PNG" alt="Resultado na Web">
    </p>
 
-
 ### 🙋‍♂️ Autor
+
 Ricardo Werner<br>
 Dev em Desenvolvimento
