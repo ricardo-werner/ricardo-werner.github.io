@@ -12,9 +12,11 @@
   gap: 1.5rem;
 }
 
-.avatar-box {
-  background: var(--bg-gradient-onyx);
-  border-radius: 2rem;
+.avatar-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    object-fit: cover;
 }
 
 .info-content .name {
