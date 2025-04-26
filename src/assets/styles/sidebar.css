@@ -84,6 +84,7 @@
 }
 
 
-.social-item .social-link:hover { 
+.social-item 
+.social-link:hover { 
   color: var(--metalic-blue); 
 }
