@@ -9,7 +9,7 @@
 }
 
 .about-text p { 
-  margin-bottom: 3rem; 
+  margin-bottom: 1.5rem; 
 }
 
 .tech { 
@@ -17,7 +17,7 @@
 }
 
 .tech-title { 
-  margin-bottom: 2rem; 
+  margin: 2.5rem 0; 
 }
 
 .tech-list {
