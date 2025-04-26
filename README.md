@@ -6,11 +6,11 @@ Este projeto foi desenvolvido com o objetivo de aplicar e consolidar conheciment
 
 ### 📌 Sobre o Projeto
 
-Este portfólio tem como foco apresentar minha trajetória profissional, tecnologias dominadas e principais projetos desenvolvidos até o momento. A página foi estruturada com HTML semântico, estilizada com CSS moderno e responsivo, e dinamizada com funcionalidades em JavaScript puro.
+Este portfólio tem como foco apresentar minha trajetória profissional, tecnologias dominadas e principais projetos desenvolvidos até o momento. A página foi estruturada com HTML semântico, estilizada com CSS moderno e responsivo e dinamizada com funcionalidades em JavaScript puro.
 
 O layout foi pensado para proporcionar uma navegação fluida e visualmente agradável, além de destacar meu compromisso com boas práticas de desenvolvimento Front-End.
 
-O projeto também serve como base para futuras evoluções, incluindo integração com testes automatizados e novos projetos em React.js e TypeScript.
+O projeto também serve como base para futuras evoluções, incluindo integração com testes manuais/automatizados e novos projetos em React.js e TypeScript.
 
 ---
 
@@ -18,7 +18,7 @@ O projeto também serve como base para futuras evoluções, incluindo integraç�
 
 - [![portfolio](https://img.shields.io/badge/portfolio-383838?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.github.com/ricardo-werner)
 
-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ricardo-werner)
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ricardo-werner)
 
 ### ✅ Status do Projeto
 
@@ -46,10 +46,16 @@ https://ricardo-werner.github.io/
   <img width="480" src="./src/assets/to_readme/tela-inicial.PNG" alt="imagem da tela da página inicial do portfólio"
 </p>
 
-#### Tela Tecnologias Estudadas
+#### Tela Tecnologias Conhecidas
 
 <p align="center">
   <img width="480" src="./src/assets/to_readme/tela-tech.PNG" alt="imagem da tela da página na parte de tecnologia"
+</p>
+
+#### Tela Tecnologias e Ferramenta em Estudo
+
+<p align="center">
+  <img width="480" src="./src/assets/to_readme/tela-study-tech.PNG" alt="imagem da tela da página na parte de tecnologia"
 </p>
 
 #### Tela Projetos
@@ -58,7 +64,7 @@ https://ricardo-werner.github.io/
   <img width="480" src="./src/assets/to_readme/tela-projeto.PNG" alt="imagem da tela da página na parte de projetos"
 </p>
 
-#### Tela do código do Código
+#### Tela do Código
 
 <p align="center">
   <img width="480" src="./src/assets/to_readme/tela_codigo.PNG" alt="imagem dos códigos utilizados na programação da página do portfólio">
