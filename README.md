@@ -6,7 +6,7 @@ Este projeto foi desenvolvido com o objetivo de aplicar e consolidar conheciment
 
 ### 📌 Sobre o Projeto
 
-Este portfólio tem como foco apresentar minha trajetória profissional, tecnologias dominadas e principais projetos desenvolvidos até o momento. A página foi estruturada com HTML semântico, estilizada com CSS moderno e responsivo e dinamizada com funcionalidades em JavaScript puro.
+Este portfólio tem como foco apresentar minha trajetória profissional, tecnologias dominadas e principais projetos desenvolvidos até o momento. A página foi estruturada com HTML semântico, estilizada com CSS moderno e responsivo.
 
 O layout foi pensado para proporcionar uma navegação fluida e visualmente agradável, além de destacar meu compromisso com boas práticas de desenvolvimento Front-End.
 
