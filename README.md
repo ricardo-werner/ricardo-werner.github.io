@@ -114,11 +114,11 @@ Este projeto foi uma ótima oportunidade para consolidar conhecimentos, aprimora
 2. Abra o projeto no Visual Studio Code e ative o Go Live:
 
    <p align="center">
-     <img width="280" src="./src/assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
+     <img width="240" src="./src/assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
    </p>
 
    <p align="center">
-     <img width="280" src="./src/assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
+     <img width="240" src="./src/assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
    </p>
 
 3. Visualize o resultado na página web:
@@ -127,7 +127,6 @@ Este projeto foi uma ótima oportunidade para consolidar conhecimentos, aprimora
      <img width="480" src="./src/assets/to_readme/telaWeb.PNG" alt="Resultado na Web">
    </p>
 
-### 🙋‍♂️ Autor
-
-Ricardo Werner<br>
-Dev em Desenvolvimento
+🙋‍♂️ Autor:&nbsp;&nbsp;
+Ricardo Werner - 
+Desenvolvedor Front-end & Acessibilidade (A11Y) & Inclusão Digital
