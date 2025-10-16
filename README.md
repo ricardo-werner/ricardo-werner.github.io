@@ -10,7 +10,7 @@ Este portfólio tem como foco apresentar minha trajetória profissional, tecnolo
 
 O layout foi pensado para proporcionar uma navegação fluida e visualmente agradável, além de destacar meu compromisso com boas práticas de desenvolvimento Front-End.
 
-O projeto também serve como base para futuras evoluções, incluindo integração com testes manuais/automatizados e novos projetos em React.js e TypeScript.
+O projeto também serve como base para futuras evoluções, incluindo Acessibiliade (A11Y), atualização para React.js e TypeScript e integração com testes manuais/automatizados.
 
 ---
 
