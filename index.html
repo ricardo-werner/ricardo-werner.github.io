@@ -22,7 +22,7 @@
 
 <body>
   <main>
-    <aside class="sidebar">
+    <aside class="sidebar" role="banner">
       <div class="sidebar-info">
         <figure class="avatar-box">
           <img src="./src/assets/images/ricardo-werner1.jpg" alt="foto Ricardo Werner" loading="lazy">
@@ -30,7 +30,7 @@
 
         <div class="info-content">
           <h1 class="name" title="Ricardo Werner">Ricardo Werner</h1>
-          <p class="title">Desenvolvedor Web Front-end</p>
+          <p class="title">Desenvolvedor Web Front-end & Acessibilidade (WCAG)</p>
         </div>
       </div>
 
@@ -39,37 +39,27 @@
 
         <ul class="contacts-list">
           <li class="contact-item">
-            <div class="icon-box">
+            <div class="icon-box" aria-hidden="true">
               <i class="bi bi-envelope"></i>
             </div>
             <div class="contact-info">
               <p class="contact-title">Email</p>
-              <a href="mailto:wernerdive@gmail.com" class="contact-link">wernerdive@gmail.com</a>
+              <a href="mailto:wernerdive@gmail.com" class="contact-link" aria-label="Enviar email" >wernerdive@gmail.com</a>
             </div>
           </li>
 
           <li class="contact-item">
-            <div class="icon-box">
+            <div class="icon-box" aria-hidden="true">
               <i class="bi bi-phone"></i>
             </div>
             <div class="contact-info">
               <p class="contact-title">Celular</p>
-              <a href="tel:+12133522795" class="contact-link">+55 (48) 99210-2106</a>
+              <a href="tel:+5548992102106" class="contact-link" aria-label="Ligar para celular"  >+55 (48) 99210-2106</a>
             </div>
           </li>
 
           <li class="contact-item">
-            <div class="icon-box">
-              <i class="bi bi-calendar-date"></i>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Aniversário</p>
-              <time datetime="19-11-1969">19-novembro</time>
-            </div>
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box">
+            <div class="icon-box" aria-hidden="true">
               <i class="bi bi-geo-alt-fill"></i>
             </div>
             <div class="contact-info">
