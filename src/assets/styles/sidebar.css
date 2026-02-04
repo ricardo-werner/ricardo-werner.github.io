@@ -30,9 +30,10 @@
   color: var(--white-1);
   background: var(--onyx);
   font-size: var(--fs-8);
-  width: max-content;
+  width: 30rem;
   padding: 0.3rem 1.2rem;
   border-radius: 0.8rem;
+  text-align: center;
 }
 
 .contacts-list {
