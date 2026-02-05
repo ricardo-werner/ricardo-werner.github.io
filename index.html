@@ -157,25 +157,49 @@
     </aside>
 
     <div class="main-content">
-      <nav class="navbar" aria-label="Navegação Principal">
+      <nav 
+        class="navbar" 
+        aria-label="Navegação Principal"
+      >
         <ul class="navbar-list">
 
-            <li class="navbar-item">
-            <a class="navbar-link" href="#section-tecnologies">Tecnologias</a>
+          <li class="navbar-item">
+            <a 
+              class="navbar-link" 
+              href="#section-tecnologies"
+            >
+              Tecnologias
+            </a>
           </li>
 
           <li class="navbar-item">
-            <a class="navbar-link" href="#section-projetos">Portfólio</a>
+            <a 
+            class="navbar-link" 
+            href="#section-projetos"
+            >
+              Portfólio
+            </a>
           </li>
         </ul>
       </nav>
 
-      <article class="about  active">
+      <article 
+        class="about  active"
+        aria-labelledby="sobre-mim-titulo"
+      >
         <header>
-          <h2 class="h2 article-title">Sobre mim!!!</h2>
+          <h2 
+            id="sobre-mim-titulo" 
+            class="h2 article-title"
+          >
+            Sobre mim!!!
+          </h2>
         </header>
 
-        <section class="about-text">
+        <section 
+          class="about-text"
+          aria-label="Resumo Profissional"
+        >
           <p>
           Minha trajetória une a maturidade de <strong>30 anos em negócios e gestão corporativa</strong> à competência técnica consolidada no <strong>Desenvolvimento Front-End</strong>.
           </p>
@@ -184,13 +208,63 @@
             Meu foco não é apenas escrever código, mas entregar interfaces inclusivas <strong>(WCAG)</strong> e soluções que resolvam problemas reais. Atuo como um "tradutor" entre a necessidade do cliente/negócio e a viabilidade técnica, utilizando minha bagagem executiva para garantir entregas funcionais e organizadas.
           </p>
 
-          <p>
-            <strong>Como eu trabalho:</strong><br>
-            <strong>Tecnologia:</strong> React.js, TypeScript e Tailwind CSS para interfaces modernas.<br>
-            <strong>Acessibilidade:</strong> Aplicação prática das diretrizes WCAG desde a estrutura do HTML.<br>
-            <strong>Visão de Produto:</strong> Atuo com mentalidade de Product Owner (PO), focando no valor que o software entrega.
-          </p>
-          <div class="article-title-bottom"></div>
+          <section
+            aria-label="Como eu Trabalho"
+          >
+            <h3>Como eu Trabalho</h3>
+
+            <ul 
+              class="como-trabalho-lista"
+            >
+              <li
+                class="como-trabalho-item"
+              >
+                <img 
+                  src="./src/assets/icon/icone-01.svg" 
+                  alt="Ícone de tecnologia"
+                  class="como-trabalho-icone"
+                  width="40" 
+                  aria-hidden="true"
+                >
+                <p>
+                  <strong>Tecnologia:</strong> React.js, TypeScript e Tailwind CSS para interfaces modernas.
+                </p>
+              </li>
+
+              <li
+                class="como-trabalho-item"
+              >
+                <img 
+                  src="./src/assets/tech/acessibilidade.png" 
+                  alt="Ícone de Acessibilidade"
+                  class="como-trabalho-icone"
+                  width="40" 
+                  aria-hidden="true"
+                >
+                <p>
+                  <strong>Acessibilidade:</strong> Aplicação prática das diretrizes WCAG desde a estrutura do HTML.
+                </p>
+              </li>
+
+              <li
+                class="como-trabalho-item"
+              >
+                <img 
+                  src="./src/assets/icon/icone-01.svg" 
+                  alt="Ícone de Produto"
+                  class="como-trabalho-icone"
+                  width="40" 
+                  aria-hidden="true"
+                >
+                <p>
+                  <strong>Visão de Produto:</strong> Atuo com mentalidade de Product Owner (PO), focando no valor que o software entrega.
+                </p>
+              </li>
+            </ul>
+          </section>
+
+          <div class="article-title-bottom" aria-hidden="true">
+          </div>
         </section>
 
         <section id="section-tecnologies" class="tech">
