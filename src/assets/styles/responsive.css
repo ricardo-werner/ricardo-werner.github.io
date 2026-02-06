@@ -63,6 +63,21 @@ main {
   text-align: center;
 }
 
+button {
+  width: max-content;
+}
+
+#link3 {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
 
 
 /* Base Tablet (até 648px+) */
@@ -78,13 +93,8 @@ main {
     width: max-content;
   }
 
-  .navbar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: max-content;
-    border-radius: 0 2rem;
-    box-shadow: none;
+  .separator {
+    margin: 1.5rem 0;
   }
 
   .icon-box {
