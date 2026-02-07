@@ -1,7 +1,5 @@
 .sidebar {
   margin-bottom: 1.5rem;
-  max-height: 11.2rem;
-  overflow: hidden;
 }
 
 .sidebar-info {
@@ -30,7 +28,6 @@
   color: var(--white-1);
   background: var(--onyx);
   font-size: var(--fs-8);
-  width: 30rem;
   padding: 0.3rem 1.2rem;
   border-radius: 0.8rem;
   text-align: center;
