@@ -22,9 +22,16 @@ footer {
   position: static;
   color: var(--papaya);
   font: var(--text-h3);
+  margin-bottom: 1rem;
 }
 
 .footer-main .redes a img{
   display: flex;
   flex-direction: row;
+  gap: 1.5rem;
+}
+
+.footer-main img {
+  width: 4rem;
+  height: 4rem;
 }
