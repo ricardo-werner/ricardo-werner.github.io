@@ -3,7 +3,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background: var(--onyx);
+  background: var(--papaya);
   border: 0.1rem solid var(--jet);
   border-radius: 1.2rem 1.2rem 0 0;
   z-index: 5;
@@ -18,7 +18,7 @@
 }
 
 .navbar-link {
-  color: var(--light-gray);
+  color: var(--smoky-black);
   font-size: var(--fs-4);
   padding: 2rem 0.7rem;
 }
