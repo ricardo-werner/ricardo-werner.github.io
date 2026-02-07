@@ -1,20 +1,23 @@
-/* Base Mobile (até 639px) - tudo empilhado,compacto  */
-
+/* ===================================
+    BASE MOBILE (até 767px) - empilhado
+============================================ */
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2.5rem;
-}
-
-.sidebar, .main-content {
-  width: 100%;
-  margin: 0 auto;
-
+  max-width: 25rem;
+  margin: 1rem;
+  max-width: 100%;
 }
 
 .sidebar {
+  margin: 1rem;
+  padding: 1rem;
   max-height: 50rem;
+}
+
+.main-content {
+  padding: 1rem;
 }
 
 .sidebar-info {
@@ -43,9 +46,9 @@ main {
 }
 
 .navbar {
-  position: initial;
+  position: static;
   width: 100%;
-  padding:1rem;
+  padding: 1rem;
   border-radius: 1rem;
   margin-bottom: 2.5rem;
 }
@@ -54,255 +57,207 @@ main {
   justify-content: space-evenly;
 }
 
-.navbar-link.active { 
-  color: var(--papaya);
-}
-
-.about .h2,
-.about .h3 {
-  text-align: center;
-}
-
-button {
-  width: max-content;
-}
-
+button,
 #link3 {
   width: max-content;
   margin: 0 auto;
 }
 
-.redes {
-  display: flex;
-  justify-content: center;
-  margin: 1rem 0;
-}
-
-
-
-/* Base Tablet (até 648px+) */
-@media (min-width: 648px) {
-  .sidebar, article {
-    width: 52rem;
-    padding: 3rem;
-    margin-inline: auto;
+/* ===================================
+    TABLET+ (768px+) - SIDEBAR ESQUERDA + CONTEÚDO DIREITA
+============================================ */
+@media (min-width: 768px) {
+  /* MAIN: GRID com padding lateral e gap menor */
+  main {
+    max-width: 100%;
+    display: grid !important;
+    grid-template-columns: 280px 1fr; /* Sidebar menor + mais espaço conteúdo */
+    align-items: flex-start;
   }
 
+  /* SIDEBAR: com cores fixas + padding interno */
+  .sidebar {
+    position: sticky !important;
+    top: 1rem !important;
+    align-self: flex-start;
+    max-height: none !important;
+    width: 100%;
+    padding: 2rem !important;
+    margin: 0 !important;
+    border-radius: 1rem;
+    background: #1a1a1a !important; /* Cor escura padrão */
+    border: 1px solid #333;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+
+  /* MAIN-CONTENT: padding interno + cor */
   .main-content {
-    position: relative;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 2.5rem !important;
+    border-radius: 1rem;
+    background: #0d1117 !important; /* Cor GitHub-like */
+    border: 1px solid #30363d;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+
+  /* NAVBAR: topo direito, rola junto */
+  .navbar {
+    position: static !important;
     width: max-content;
+    margin: 0 0 2rem auto; /* Alinha à direita */
+    padding: 0.75rem 2rem;
+    border-radius: 1rem;
+    background: var(--text-gradient-papaya) !important;
+    color: var(--smoky-black);
   }
 
-  .separator {
-    margin: 1.5rem 0;
+  /* Sidebar ajustes */
+  .sidebar-info {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
   }
 
-  .icon-box {
-    width: 4.8rem;
-    height: 4.8rem;
+  .avatar-box img {
+    width: 11rem;
+    height: 11rem;
+  }
+
+  .info-content .name {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  /* Tech e projetos */
+  .tech-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .tech-item {
     display: flex;
-    gap: 1.8rem;
-    padding: 3rem;
+    gap: 1.5rem;
+    padding: 1.5rem;
   }
-}
 
-/* Base LAPTOP/DESKTOP (1024px+) - grid + sidebar sticky  */
-
-@media (min-width: 1024px) {
-  main {
-    max-width: 95rem;
-    margin-bottom: 6rem;
+  .container-projetos {
     display: grid;
-    grid-template-columns: 320px 1fr;
-    gap: 2.5rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
-  .sidebar {
-    position: sticky;
-    top: 6rem;
-    height: fit-content;
+  #link3 {
+    width: 100%;
+    margin: 2rem auto 0;
   }
 
-  .tech-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem 2.5rem;
+  .footer-main {
+    font-size: var(--fs-7);
+    padding: 1rem;
   }
 
-  .project-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-
-/* Base Mobile (1280px+) - largura máxima  */
-@media (min-width: 1280px) {
-  main {
-    max-width: 120rem;
-    margin-inline: auto;
-    display: flex;
-    justify-content: center;
-    gap: 2.5rem;
-  }
-
-  .main-content {
-    min-width: 75%;
-    width: 75%;
-  }
-
-  .sidebar-info {
-    flex-direction:column;
-  }
-
-  .info-more-btn {
+  .redes,
+  .linkedin,
+  .github {
     display: none;
   }
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ===================================
+    DESKTOP GRANDE (1024px+) - refinamentos
+============================================ */
 @media (min-width: 1024px) {
+  /* MAIN: mais espaço horizontal */
+  main {
+    max-width: 100%;
+    grid-template-columns: 360px 1fr; /* Sidebar maior */
+    gap: 2.5rem;
+  }
 
-.sidebar {
-  position: sticky;
+  /* SIDEBAR: mais espaçosa */
+  .sidebar {
+    padding: 3rem !important;
+  }
+
+  .avatar-box img { 
+    width: 13rem;
+    height: 13rem;
+  }
+  .info-content .name {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  /* MAIN-CONTENT: mais padding interno */
+  .main-content {
+    padding: 3rem !important;
+  }
+
+  /* NAVBAR: topo direito maior */
+  .navbar {
+    padding: 1rem 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  /* TECH: 2 colunas */
+  .tech-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  /* PROJETOS: 2 colunas (não 3 ainda) */
+  .container-projetos {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  /* Botão projetos */
+  #link3 {
+    max-width: 50rem;
+  }
+
+  .footer-main {
+    font-size: var(--fs-7);
+    padding: 1rem;
+  }
+
+  .redes,
+  .linkedin,
+  .github {
+    display: none;
+  }
 }
 
-.sidebar, article {
-  width: 95rem;
-}
 
-main { 
-  margin-bottom: 6rem; }
-
-.main-content {
-  position: relative;
-  width: max-content;
-  margin: auto;
-}
-
-.navbar {
-  position: absolute;
-  bottom: auto;
-  top: 0;
-  left: auto;
-  right: 0;
-  width: max-content;
-  border-radius: 0 2rem;
-  padding: 0 2rem;
-  box-shadow: none;
-  margin-top: 4.6rem;
-}
-
-.navbar-list {
-  gap: 3rem;
-  padding: 1rem 2rem;
-}
-
-.navbar-link { font-size:var(--fs-2); }
-
-.tech-list {
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem 2.5rem;
-}
-
-.project-list { grid-template-columns: repeat(3, 1fr); }
-
-footer :is(.redes, a) {
-  display: none;
-}
-  
-}
-
-
-
+/* ===================================
+    ULTRA-WIDE (1250px+) - sidebar maior
+============================================ */
 @media (min-width: 1250px) {
+  main {
+    max-width: 100%;
+    grid-template-columns: 380px 1fr;
+    gap: 2.5rem;
+  }
 
-.sidebar, article { 
-  width: auto; 
+  .container-projetos {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+
+  .sidebar {
+    padding: 3.5rem !important;
+  }
 }
 
-main {
-  max-width: 120rem;
-  margin-inline: auto;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  gap: 2.5rem;
-}
-
-.main-content {
-  min-width: 75%;
-  width: 75%;
-  margin: 0;
-}
-
-
-.sidebar {
-  position: sticky;
-  top: 6rem;
-  max-height: max-content;
-  height: 100%;
-  margin-bottom: 0;
-  padding-top: 6rem;
-  z-index: 1;
-}
-
-.sidebar-info { flex-direction: column; }
-
-.avatar-box img { width: 15rem; }
-
-.info-content .name {
-  white-space: nowrap;
-  text-align: center;
-}
-
-.info-content .title { margin: auto; }
-
-.info_more-btn { display: none; }
-
-.sidebar-info_more {
-  opacity: 1;
-  visibility: visible;
-}
-
-.contacts-list { grid-template-columns: 1fr; }
-
-.contact-info :is(.contact-link) {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.contact-info :is(.contact-link, time, address) {
-  font-size: var(--fs-6);
-}
-
-.separator:last-of-type {
-  margin: 1.5rem 0;
-  opacity: 0;
-}
-
-.social-list { justify-content: center; }
-
-footer :is(.redes, a) {
-  display: none;
-}
-  
-}
